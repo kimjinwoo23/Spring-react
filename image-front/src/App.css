@@ -1,0 +1,81 @@
+.App {
+  text-align: center;
+}
+
+.form-container{
+  margin-bottom: 20px;
+  padding: 10px;
+  border:1px solid #fff;
+  border-radius: 5px;
+  background-color: #25383c;
+  color: #fff;
+
+}
+.form-container table{
+  width: 800px;
+  
+
+}
+.form-container td{
+  padding: 10px;
+
+}
+button {
+  background-color: aquamarine;
+  color: lightcoral;
+  border: none;
+  padding: 10px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 20px;
+}
+button:hover , .file-label:hover{
+  background-color: #25383c;
+  color: red;
+
+}
+.posts {
+  border: 1px solid lightblue;
+background-color: antiquewhite;
+margin-bottom: 10px;
+border-radius: 5px;
+padding: 10px;
+}
+
+.post .images {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.post .images img {
+  max-width: 200px;
+  margin-right: 10px;
+  border: 1px solid lightblue;
+  border-radius: 5px;
+  padding: 10px;
+
+}
+input,textarea{
+  width: 100%;
+  padding: 10px;
+  border: 1px solid lightblue;
+  border-radius: 5px;
+  font-size: 20px;
+}
+label{
+  font-size: 20px;
+
+}
+.file-label{
+  display:inline-block;
+  padding: 10px 20px;
+  background-color: lightcoral;
+  color: chartreuse;
+  border-radius: 5px;
+  cursor: pointer;
+
+}
+.file-label input{
+  display: none;
+
+}
